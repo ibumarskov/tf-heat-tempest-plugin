@@ -1,0 +1,5 @@
+flake8
+PyYAML
+setuptools
+tempest
+heat-tempest-plugin

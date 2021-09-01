@@ -1,0 +1,4 @@
+PyYAML
+setuptools
+tempest
+heat-tempest-plugin

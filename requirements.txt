@@ -3,3 +3,4 @@ PyYAML
 setuptools
 tempest
 heat-tempest-plugin
+tungsten-tempest

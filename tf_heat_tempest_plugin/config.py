@@ -12,15 +12,3 @@
 #    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 #    License for the specific language governing permissions and limitations
 #    under the License.
-
-from oslo_config import cfg
-
-service_available_group = cfg.OptGroup(name="service_available",
-                                       title="Available OpenStack Services")
-
-ServiceAvailableGroup = [
-    cfg.BoolOpt("tungstenfabric",
-                default=False,
-                help="Whether or not tungstenfabric (as backend for neutron)"
-                     " is expected to be available")
-]
